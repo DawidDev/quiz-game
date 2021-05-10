@@ -1,0 +1,95 @@
+{
+    "questions": [
+      {
+        "id": 1,
+        "level": 1,
+        "question": "Tatry nie leżą w:",
+        "answer": ["Słowacji", "Polsce", "Czechach"],
+        "truth": "Czechach"
+      },
+      {
+        "id": 2,
+        "level": 1,
+        "question": "Najwyższym szczytem polskich Tatr są Rysy. Który szczyt jest drugi?",
+        "answer": ["Mięguszowiecki Szczyt", "Niżne Rysy", "Świnica"],
+        "truth": "Mięguszowiecki Szczyt"
+      },
+      {
+        "id": 3,
+        "level": 2,
+        "question": "Jaki jest najwyższy, znajdujący się poza Tatrami, szczyt w Polsce?",
+        "answer": ["Szrenica", "Babia Góra", "Śnieżka"],
+        "truth": "Babia Góra"
+      },
+      {
+        "id": 4,
+        "level": 3,
+        "question": "Ile województw mieliśmy w Polsce w latach 90. XX w., tuż przed reformą?",
+        "answer": ["49", "36", "25"],
+        "truth": "49"
+      },
+      {
+        "id": 5,
+        "level": 1,
+        "question": "Ile województw mamy obecnie?",
+        "answer": ["12", "16", "17"],
+        "truth": "16"
+      },
+      {
+        "id": 6,
+        "level": 2,
+        "question": "Lublin jest stolicą województwa:",
+        "answer": ["lubelskiego", "lubuskiego", "Innego"],
+        "truth": "lubelskiego"
+      },
+      {
+        "id": 7,
+        "level": 2,
+        "question": "Które z tych miast jest stolicą woj. warmińsko-mazurskiego?",
+        "answer": ["Ełk", "Elbląg", "Olsztyn"],
+        "truth": "Olsztyn"
+      },
+      {
+        "id": 8,
+        "level": 3,
+        "question": "Wskaż województwo o najmniejszej powierzchni.",
+        "answer": ["podkarpackie", "opolskie", "świętokrzyskie"],
+        "truth": "opolskie"
+      },
+      {
+        "id": 9,
+        "level": 1,
+        "question": "Przez którą z poniższych miejscowości nie płynie rzeka Wisła?",
+        "answer": ["Gniezno", "Wisła", "Grudziądz"],
+        "truth": "Gniezno"
+      },
+      {
+        "id": 10,
+        "level": 1,
+        "question": "Ile państw sąsiaduje z naszym krajem?",
+        "answer": ["5", "7", "8"],
+        "truth": "7"
+      },
+      {
+        "id": 11,
+        "level": 1,
+        "question": "Który z tych krajów ma największą powierzchnię?",
+        "answer": ["Kanada", "Stany Zjednoczone", "Chiny"],
+        "truth": "Kanada"
+      },
+      {
+        "id": 12,
+        "level": 1,
+        "question": "Chorwacja sąsiaduje z...",
+        "answer": ["Czarnogórą", "Albanią", "Macedonią"],
+        "truth": "Czarnogórą"
+      },
+      {
+        "id": 13,
+        "level": 1,
+        "question": "W jakim kraju leży Normandia?",
+        "answer": ["w Niemczech", "we Francji", "w Wielkiej Brytanii"],
+        "truth": "we Francji"
+      }
+    ]
+  }

@@ -1,0 +1,95 @@
+{
+    "questions": [
+      {
+        "id": 1,
+        "level": 1,
+        "question": "1Czy ziem5ia jest płaska?",
+        "answer": ["Tzzak", "Nie", "Totalnie nie"],
+        "truth": "Nie"
+      },
+      {
+        "id": 2,
+        "level": 1,
+        "question": "2Czy zorza po4larna występuje w strefie śródziemnomorskiej?",
+        "answer": ["Tsak", "Nie", "Częściowo"],
+        "truth": "Nie"
+      },
+      {
+        "id": 3,
+        "level": 2,
+        "question": "3Kto jest autorem teorii heliocentrycznej?",
+        "answer": ["Newtreon", "Leonardo Di Caprio", "M. Kopernik"],
+        "truth": "M. Kopernik"
+      },
+      {
+        "id": 4,
+        "level": 3,
+        "question": "4Kto odkrył Amerykę?",
+        "answer": ["Koelumb", "Vasco da Gama", "Żaden z podanych"],
+        "truth": "Kolumb"
+      },
+      {
+        "id": 5,
+        "level": 1,
+        "question": "5Czy ziemia je8st płaska?",
+        "answer": ["Taggk", "Nie", "Częściowo"],
+        "truth": "Nie"
+      },
+      {
+        "id": 6,
+        "level": 2,
+        "question": "C6zy zorza polarna występuje w strefie śródziemnomorskiej?",
+        "answer": ["Tassk", "Nie", "Częściowo"],
+        "truth": "Nie"
+      },
+      {
+        "id": 7,
+        "level": 2,
+        "question": "K5to jest autorem teorii heliocentrycznej?",
+        "answer": ["Newddton", "Leonardo Di Caprio", "M. Kopernik"],
+        "truth": "M. Kopernik"
+      },
+      {
+        "id": 8,
+        "level": 3,
+        "question": "7Kto odkrył Amerykę?",
+        "answer": ["Kogglumb", "Vasco da Gama", "Platon"],
+        "truth": "sds"
+      },
+      {
+        "id": 9,
+        "level": 1,
+        "question": "8Kto odkr4ył Amerykę?",
+        "answer": ["Kofflumb", "Vasco da Gama", "Platon"],
+        "truth": "Koluasamb"
+      },
+      {
+        "id": 10,
+        "level": 1,
+        "question": "8Kto odkr1ył zje?",
+        "answer": ["Kolumb", "Vasco da Gama", "Platon"],
+        "truth": "Koludsmb"
+      },
+      {
+        "id": 11,
+        "level": 1,
+        "question": "8Kto odkr4ył Bali?",
+        "answer": ["Kodlumb", "Vasco da Gama", "Platon"],
+        "truth": "Koldsumb"
+      },
+      {
+        "id": 12,
+        "level": 1,
+        "question": "8Kto odkr4ył Francje?",
+        "answer": ["Kolutmb", "Vasco da Gama", "Platon"],
+        "truth": "Kolusdsamb"
+      },
+      {
+        "id": 13,
+        "level": 1,
+        "question": "8Kto odkr4ył Juri?",
+        "answer": ["Kolhumb", "Vasco da Gama", "Platon"],
+        "truth": "Kolasdumb"
+      }
+    ]
+  }

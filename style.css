@@ -1,0 +1,429 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.primary-button {
+    background-color: #EF645B;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    height: 45px;
+    width: 200px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 24px 5px rgba(0,0,0,0.24); 
+    position: relative;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.primary-button::after {
+    background-color: #fff;
+    border-radius: 30px;
+    height: 0%;
+    width: 0%;
+    opacity: 0.2;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.2s;
+}
+
+.primary-button:hover {
+    cursor: pointer
+}
+
+.primary-button:focus::after  {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #4D5DDD;
+}
+
+.header-box {
+    height: 15vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 1;
+    transform: translateY(-100%);
+    transition: 0.2s;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-box h4, .header-box h3 {
+    color: #fff;
+}
+
+.header-box h4 {
+    font-size: 30px;
+}
+
+.header-box h3 {
+    font-size: 20px;
+}
+
+main {
+    padding-top: 15vh;
+    width: 350px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+ main h2 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+
+
+main .container {
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 0.3s;
+    z-index: 1;
+    position: relative;
+    z-index: 0;
+}
+
+/* Stylowanie elementów STRONY 1 */
+main .container .start-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50px 50px 0 0;
+}
+
+main .container .start-container h1 {
+    position: absolute;
+    top: 0;
+    font-size: 50px;
+    color: #fff;
+}
+
+
+main .container .start-container input {
+    width: 170px;
+    height: 35px;
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.7);
+    background-color: transparent;
+    outline: none;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    transition: 0.2s;
+}
+
+main .container .start-container input:focus {
+    border-bottom: 2px solid #EF645B;
+}
+
+main .container .start-container button {
+    margin-top: 30%;
+}
+
+
+/* Stylowanie elementów STRONY 2 */
+
+main .quiz-list-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #F9FAFB;
+    z-index: 1;
+    transform: translateY(100%);
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50px 50px 0 0;
+}
+
+main .quiz-list-container .btn-quiz {
+    height: 60px;
+    text-align: left;
+    font-size: 18px;
+    padding-left: 10%;
+    width: 280px;
+    border-radius: 50px;
+    margin-bottom: 35px;
+    border: none;
+    outline: none;
+    position: relative;
+    transition: 0.2s;
+    box-shadow: 0px 0px 24px 5px rgba(0,0,0,0.24); 
+}
+
+main .quiz-list-container .btn-quiz img {
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+    height: 75px;
+}
+
+main .quiz-list-container .btn-quiz:hover {
+    background-color: #C1C7FC;
+    cursor: pointer;
+}
+
+/* Stylowanie elementów STRONY 3 */
+
+main .quiz-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgb(240, 240, 240);
+    z-index: 1;
+    transform: translateY(100%);
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50px 50px 0 0;
+}
+
+main .quiz-container .level-box {
+    height: 40%;
+    width: 80%;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+main .quiz-container .level-box .level-button {
+    width: 180px;
+    height: 45px;
+    border-radius: 30px;
+    border: none;
+    border: 1px solid #FFC054;
+    transition: 0.5s;
+    position: relative;
+    font-size: 18px;
+    color: rgb(53, 53, 53);
+}
+
+.checked {
+    background-color: #FFC054;
+}
+
+main .quiz-container .level-box .level-button::before {
+    width: 0%;
+    height: 0%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    content: "";
+    background-color: #FFC054;
+    transition: 0.5s;
+    opacity: 0.5;
+}
+
+main .quiz-container .level-box .level-button:focus:before {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+main .quiz-container .level-box .level-button:hover {
+    cursor: pointer;
+}
+
+
+main .process-box {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #F9FAFB;
+    z-index: 1;
+    transform: translateY(100%);
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50px 50px 0 0;
+}
+
+
+main .process-box .ask-box {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #F9FAFB;
+    z-index: 1;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50px 50px 0 0;
+}
+
+main .process-box .ask-box p {
+    width: 70%;
+    padding: 15px;
+    margin: 20px 0;
+    box-shadow: 0px 0px 24px 5px rgba(0,0,0,0.24); 
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+main .process-box .ask-box button {
+    width: 70%;
+    min-height: 55px;
+    margin-top: 15px;
+    border-radius: 30px;
+    border: 1px solid #FFC054;
+    outline: none;
+    background: transparent;
+    position: relative;
+    transition: 0.3s;
+    font-size: 15px;
+}
+
+main .process-box .ask-box button:focus {
+    background-color: #2DDAA5;
+}
+
+main .process-box .ask-box button:hover {
+    cursor: pointer;
+}
+
+.progress-bar {
+    width: 80%;
+    height: 5px;
+    background-color: rgb(235, 235, 235);
+    z-index: 11;
+    position: absolute;
+    top: 10%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress {
+    transition: 0.5s;
+    height: 100%;
+    background-color: #2DDAA5;
+}
+
+.progress-number {
+    z-index: 12;
+    position: absolute;
+    top: 15%;
+    width: 80%;
+    font-size: 15px;
+    color: rgb(107, 107, 107);
+}
+
+
+/* Style dla ostatniej strony */
+main .score-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgb(240, 240, 240);
+    z-index: 1;
+    transform: translateY(100%);
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50px 50px 0 0;
+}
+
+main .score-container button {
+    margin-top: 1rem;
+}
+
+main .score-container .points {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 5vh;
+}
+
+main .score-container .points .ring-background {
+    height: 1%;
+    width: 1%;
+    transition: 1s;
+    background-color: #4dedc557;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+main .score-container .points .ring-background:before {
+    content: "";
+    width: 70%;
+    height: 70%;
+    background-color: #4dedc59e;
+}
+
+main .score-container .points .ring-background:after {
+    content: "";
+    width: 50%;
+    height: 50%;
+    background-color: #4DEDC4;
+}
+
+main .score-container .points .ring-background:before,
+main .score-container .points .ring-background:after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
