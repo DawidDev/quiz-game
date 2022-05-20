@@ -31,65 +31,65 @@
       {
         "id": 5,
         "level": 1,
-        "question": "5Czy ziemia je8st płaska?",
-        "answer": ["Taggk", "Nie", "Częściowo"],
+        "question": "Czy ziemia jest płaska?",
+        "answer": ["Tak", "Nie", "Częściowo"],
         "truth": "Nie"
       },
       {
         "id": 6,
         "level": 2,
-        "question": "C6zy zorza polarna występuje w strefie śródziemnomorskiej?",
-        "answer": ["Tassk", "Nie", "Częściowo"],
+        "question": "Czy zorza polarna występuje w strefie śródziemnomorskiej?",
+        "answer": ["Tak", "Nie", "Częściowo"],
         "truth": "Nie"
       },
       {
         "id": 7,
         "level": 2,
-        "question": "K5to jest autorem teorii heliocentrycznej?",
+        "question": "5to jest autorem teorii heliocentrycznej?",
         "answer": ["Newddton", "Leonardo Di Caprio", "M. Kopernik"],
         "truth": "M. Kopernik"
       },
       {
         "id": 8,
         "level": 3,
-        "question": "7Kto odkrył Amerykę?",
+        "question": "Kto odkrył Amerykę?",
         "answer": ["Kogglumb", "Vasco da Gama", "Platon"],
         "truth": "sds"
       },
       {
         "id": 9,
         "level": 1,
-        "question": "8Kto odkr4ył Amerykę?",
-        "answer": ["Kofflumb", "Vasco da Gama", "Platon"],
-        "truth": "Koluasamb"
+        "question": "Kto odkrył Amerykę?",
+        "answer": ["Kolumb", "Vasco da Gama", "Platon"],
+        "truth": "Kolumb"
       },
       {
         "id": 10,
         "level": 1,
-        "question": "8Kto odkr1ył zje?",
-        "answer": ["Kolumb", "Vasco da Gama", "Platon"],
-        "truth": "Koludsmb"
+        "question": "Stolica Francji to?",
+        "answer": ["Nowy Jork", "Paryż", "Wenecja"],
+        "truth": "Paryż"
       },
       {
         "id": 11,
         "level": 1,
-        "question": "8Kto odkr4ył Bali?",
-        "answer": ["Kodlumb", "Vasco da Gama", "Platon"],
-        "truth": "Koldsumb"
+        "question": "Stolica Włoch to?",
+        "answer": ["Wenecja", "Pula", "Rzym"],
+        "truth": "Rzym"
       },
       {
         "id": 12,
         "level": 1,
-        "question": "8Kto odkr4ył Francje?",
-        "answer": ["Kolutmb", "Vasco da Gama", "Platon"],
-        "truth": "Kolusdsamb"
+        "question": "Stolica Polski to?",
+        "answer": ["Warszawa", "Gniezno", "Poznań"],
+        "truth": "Warszawa"
       },
       {
         "id": 13,
         "level": 1,
-        "question": "8Kto odkr4ył Juri?",
-        "answer": ["Kolhumb", "Vasco da Gama", "Platon"],
-        "truth": "Kolasdumb"
+        "question": "Czy Polska ma dostęp do oceanu?",
+        "answer": ["Nie", "Kiedyś miała", "Tak"],
+        "truth": "Nie"
       }
     ]
   }
